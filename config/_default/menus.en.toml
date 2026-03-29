@@ -1,0 +1,9 @@
+[[main]]
+  name = "Tech"
+  pageRef = "tech"
+  weight = 10
+
+[[main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 30
