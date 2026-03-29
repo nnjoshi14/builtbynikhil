@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#1a1a2e"/>
+  <text x="600" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700" fill="#e0e0e0" text-anchor="middle">Built by Nikhil</text>
+  <text x="600" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#8888a0" text-anchor="middle">Articles, notes, and ideas on technology and management</text>
+  <text x="600" y="520" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#555570" text-anchor="middle">builtbynikhil.com</text>
+</svg>
