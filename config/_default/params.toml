@@ -39,7 +39,7 @@ mainSections = ["tech", "management", "arduino", "quotes", "brain"]
 [list]
   showBreadcrumbs = true
   showSummary = true
-  groupByYear = true
+  groupByYear = false
 
 [taxonomy]
   showTermCount = true
