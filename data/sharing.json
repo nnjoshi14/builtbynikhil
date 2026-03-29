@@ -17,7 +17,7 @@
   "linkedin": {
     "icon": "linkedin",
     "title": "sharing.linkedin",
-    "url": "https://www.linkedin.com/sharing/share-offsite/?url=%s"
+    "url": "https://www.linkedin.com/sharing/share-offsite/?url=%s&title=%s"
   },
   "pinterest": {
     "icon": "pinterest",
