@@ -9,3 +9,11 @@ title = "Built by Nikhil"
   isoCode = "en"
   dateFormat = "2 January 2006"
   description = "Articles, notes, and ideas on technology, management, and more."
+
+[params.author]
+  name = "Nikhil Joshi"
+  headline = "Software engineer writing about technology and management."
+  links = [
+    { linkedin = "https://www.linkedin.com/in/njoshi/" },
+    { github = "https://github.com/nnjoshi14" },
+  ]

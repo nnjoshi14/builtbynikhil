@@ -1,6 +1,7 @@
 ---
 title: "How I Set Up This Blog Using Hugo, GitHub, and Cloudflare"
 date: 2026-03-29
+lastmod: 2026-03-29
 tags: ["hugo", "cloudflare", "github", "blogging", "static-site"]
 categories: ["tech"]
 summary: "A step-by-step guide to setting up a minimalistic, markdown-powered blog using Hugo, GitHub, and Cloudflare — from zero to a live site."
@@ -570,10 +571,12 @@ This is a Hugo site using the Blowfish theme.
 - Each section has an `_index.md` for its listing page
 
 ## Creating new posts
-- Use frontmatter: title, date, tags, categories, summary, draft
+- Use frontmatter: title, date, lastmod, tags, categories, summary, draft
+- Always include `lastmod` — set to same as `date` for new posts, update when editing
 - Place posts in the correct section folder based on topic
 - Create new section folders and `_index.md` files as needed
 - Tags are lowercase, hyphenated (e.g., "state-management", "clean-code")
+- Always include `summary` (under 160 chars) — used as meta description
 
 ## Creating new sections
 When a post needs a section that does not exist yet:
