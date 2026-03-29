@@ -347,14 +347,27 @@ func main() {
 }
 ```
 
-**Mermaid diagrams** (with Blowfish, these render natively):
+**Mermaid diagrams** — Blowfish uses a shortcode, not the standard markdown fenced code block:
 
-```mermaid
+```text
+{{</*/* mermaid */*/>}}
 graph LR
     A[Write Markdown] --> B[Git Push]
     B --> C[Cloudflare Builds]
     C --> D[Site Live]
+{{</*/* /mermaid */*/>}}
 ```
+
+> **Note:** Replace `/* mermaid */` with `mermaid` — the `/* */` wrapping above is just Hugo's escape syntax to display the shortcode as text.
+
+Which renders as:
+
+{{< mermaid >}}
+graph LR
+    A[Write Markdown] --> B[Git Push]
+    B --> C[Cloudflare Builds]
+    C --> D[Site Live]
+{{< /mermaid >}}
 
 **Frontmatter** at the top of every post controls metadata:
 
@@ -501,6 +514,9 @@ This is a Hugo site using the Blowfish theme.
 When a post needs a section that does not exist yet:
 1. Create the folder under `content/`
 2. Add an `_index.md` with title and description frontmatter
+
+## Mermaid diagrams
+Blowfish uses a `{{</* mermaid */>}}` shortcode — do NOT use fenced ```mermaid code blocks.
 ```
 
 ### Generate Content with Claude
