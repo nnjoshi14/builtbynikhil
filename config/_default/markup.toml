@@ -1,0 +1,7 @@
+[highlight]
+  noClasses = false
+  lineNos = true
+
+[goldmark]
+  [goldmark.renderer]
+    unsafe = true

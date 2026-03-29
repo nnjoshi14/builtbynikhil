@@ -141,8 +141,9 @@ This creates the project skeleton:
 ```
 builtbynikhil/
 ├── archetypes/     # templates for new content
+├── config/         # site configuration (created in Step 3)
 ├── content/        # your markdown posts live here
-├── hugo.toml       # site configuration
+├── hugo.toml       # default config (replaced in Step 3)
 ├── layouts/        # layout overrides
 ├── static/         # images, files
 └── themes/         # installed themes
@@ -160,32 +161,152 @@ Using a submodule keeps the theme as a separate concern — your content and the
 
 ## Step 3: Configure the Site
 
-Replace the contents of `hugo.toml` with your configuration. Here is a minimal starting point:
+Blowfish does not work with a single `hugo.toml` file. It expects a multi-file configuration structure under `config/_default/`. If you try using a single `hugo.toml`, the site will build but render an empty page — this is the most common gotcha when setting up Blowfish.
+
+Delete the root `hugo.toml` that Hugo generated and create the config directory:
+
+```bash
+rm hugo.toml
+mkdir -p config/_default
+```
+
+Now create the following configuration files:
+
+**`config/_default/hugo.toml`** — core Hugo settings:
 
 ```toml
 baseURL = "https://builtbynikhil.com/"
-languageCode = "en-us"
-title = "Built by Nikhil"
-theme = "blowfish"
+defaultContentLanguage = "en"
+
+enableRobotsTXT = true
+summaryLength = 0
+enableEmoji = true
+
+[pagination]
+  pagerSize = 100
+
+[imaging]
+  anchor = 'Center'
 
 [taxonomies]
   tag = "tags"
   category = "categories"
 
-[params]
-  description = "Articles, notes, and ideas on technology, management, and more."
-  mainSections = ["tech", "management", "arduino", "quotes", "brain"]
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.5
 
-[markup]
-  [markup.highlight]
-    noClasses = false
-    lineNos = true
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 ```
 
-The `[taxonomies]` block tells Hugo to generate tag and category pages automatically. Every post tagged with `hugo` gets listed at `/tags/hugo/`.
+**`config/_default/languages.en.toml`** — site title and language settings:
+
+```toml
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Built by Nikhil"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  dateFormat = "2 January 2006"
+  description = "Articles, notes, and ideas on technology, management, and more."
+```
+
+**`config/_default/params.toml`** — Blowfish theme parameters:
+
+```toml
+colorScheme = "blowfish"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+
+enableSearch = true
+enableCodeCopy = true
+
+mainSections = ["tech", "management", "arduino", "quotes", "brain"]
+
+[header]
+  layout = "basic"
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "page"
+  showRecent = true
+  showRecentItems = 10
+  showMoreLink = true
+  showMoreLinkDest = "/tech/"
+
+[article]
+  showDate = true
+  showAuthor = true
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showHeadingAnchors = true
+  showPagination = true
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = true
+  showWordCount = true
+
+[list]
+  showBreadcrumbs = true
+  showSummary = true
+  groupByYear = true
+
+[taxonomy]
+  showTermCount = true
+
+[term]
+  showTableOfContents = true
+  groupByYear = false
+```
+
+The `[homepage]` section is critical. Blowfish defaults to a `profile` layout that shows an author card — if you have not configured author info, the page renders empty. Setting `layout = "page"` with `showRecent = true` gives you a straightforward homepage that lists your latest posts.
+
+**`config/_default/menus.en.toml`** — navigation menu:
+
+```toml
+[[main]]
+  name = "Tech"
+  pageRef = "tech"
+  weight = 10
+
+[[main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 30
+```
+
+**`config/_default/markup.toml`** — code highlighting and markdown rendering:
+
+```toml
+[highlight]
+  noClasses = false
+  lineNos = true
+
+[goldmark]
+  [goldmark.renderer]
+    unsafe = true
+```
+
+**`config/_default/module.toml`** — tells Hugo to load Blowfish:
+
+```toml
+[[imports]]
+  path = "blowfish"
+```
+
+The `[taxonomies]` block in `hugo.toml` tells Hugo to generate tag and category pages automatically. Every post tagged with `hugo` gets listed at `/tags/hugo/`.
 
 ## Step 4: Set Up the Content Hierarchy
 
@@ -269,7 +390,7 @@ git remote add origin https://github.com/YOUR_USERNAME/builtbynikhil.git
 git push -u origin main
 ```
 
-Your entire site — config, content, theme reference — lives in this single repository.
+Your entire site — config files, content, theme reference — lives in this single repository.
 
 ## Step 8: Deploy on Cloudflare Pages
 
@@ -317,7 +438,13 @@ Here is how the single repository keeps concerns separated:
 
 ```
 builtbynikhil/
-├── hugo.toml              # site configuration (yours)
+├── config/_default/       # site configuration (yours)
+│   ├── hugo.toml          # core Hugo settings
+│   ├── languages.en.toml  # title, language, description
+│   ├── params.toml        # Blowfish theme parameters
+│   ├── menus.en.toml      # navigation menu
+│   ├── markup.toml        # code highlighting, markdown
+│   └── module.toml        # theme import
 ├── content/               # all your writing (yours)
 │   ├── tech/
 │   │   ├── flutter/
@@ -335,9 +462,9 @@ builtbynikhil/
 
 - **Content** is just markdown in `content/` — portable, editor-agnostic
 - **Theme** is a git submodule — update or replace without touching content
-- **Config** is one file — `hugo.toml`
+- **Config** is split across files in `config/_default/` — each file handles one concern
 
-No build scripts, no sync tools, no separate repositories to manage.
+No build scripts, no sync tools, no separate repositories to manage. Note the absence of a root `hugo.toml` — Blowfish requires the config to live in `config/_default/`.
 
 ## Bonus: Using Claude Code to Manage Content
 
