@@ -5,7 +5,7 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 enableStructuredBreadcrumbs = true
-defaultSocialImage = "img/social-banner.svg"
+defaultSocialImage = "img/social-banner.png"
 
 mainSections = ["tech", "management", "arduino", "quotes", "brain"]
 

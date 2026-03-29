@@ -1,3 +1,3 @@
 ---
-title: "Articles, notes, and ideas"
+title: "Articles, notes, and ideas on technology and management"
 ---
