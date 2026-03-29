@@ -563,3 +563,5 @@ From here, I plan to:
 The entire setup took under an hour. The best part: the writing experience is just editing markdown files in VS Code. No context switching, no web interfaces, no databases.
 
 If you are looking for a simple, fast, and free way to publish your writing — this stack is hard to beat.
+
+The full source for this site is on GitHub: [nnjoshi14/builtbynikhil](https://github.com/nnjoshi14/builtbynikhil). Feel free to use it as a reference.
