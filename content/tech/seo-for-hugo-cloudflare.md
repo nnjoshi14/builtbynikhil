@@ -52,10 +52,10 @@ This populates the author field across meta tags, JSON-LD, RSS, and Open Graph.
 
 When someone shares a link on LinkedIn, Twitter, or Slack, the platform looks for an `og:image`. Without one, your link shows with a blank preview — easy to scroll past.
 
-Create a 1200x630px image (the optimal size for most platforms) and save it as `assets/img/social-banner.svg`. Then add to `config/_default/params.toml`:
+Create a 1200x630px image (the optimal size for most platforms) and save it as `assets/img/social-banner.png`. Then add to `config/_default/params.toml`:
 
 ```toml
-defaultSocialImage = "img/social-banner.svg"
+defaultSocialImage = "img/social-banner.png"
 ```
 
 Blowfish uses a fallback chain for images: it first looks for a page-level image named `featured*`, `cover*`, or `thumbnail*`, then falls back to this default. So individual posts can have their own social images while the site-wide default catches everything else.
@@ -227,7 +227,7 @@ Here is everything in one place:
 
 ```toml
 enableStructuredBreadcrumbs = true
-defaultSocialImage = "img/social-banner.svg"
+defaultSocialImage = "img/social-banner.png"
 
 [article]
   sharingLinks = ["linkedin", "twitter", "bluesky", "reddit", "email"]

@@ -216,6 +216,14 @@ title = "Built by Nikhil"
   isoCode = "en"
   dateFormat = "2 January 2006"
   description = "Articles, notes, and ideas on technology, management, and more."
+
+[params.author]
+  name = "Nikhil Joshi"
+  headline = "Software engineer writing about technology and management."
+  links = [
+    { linkedin = "https://www.linkedin.com/in/njoshi/" },
+    { github = "https://github.com/nnjoshi14" },
+  ]
 ```
 
 **`config/_default/params.toml`** — Blowfish theme parameters:
@@ -227,6 +235,8 @@ autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = true
+enableStructuredBreadcrumbs = true
+defaultSocialImage = "img/social-banner.png"
 
 mainSections = ["tech", "management", "arduino", "quotes", "brain"]
 
@@ -258,6 +268,7 @@ mainSections = ["tech", "management", "arduino", "quotes", "brain"]
   showTableOfContents = true
   showTaxonomies = true
   showWordCount = true
+  sharingLinks = ["linkedin", "twitter", "bluesky", "reddit", "email"]
 
 [list]
   showBreadcrumbs = true
@@ -266,6 +277,9 @@ mainSections = ["tech", "management", "arduino", "quotes", "brain"]
 
 [taxonomy]
   showTermCount = true
+
+[sitemap]
+  excludedKinds = []
 
 [term]
   showTableOfContents = true
@@ -339,7 +353,7 @@ Hugo uses your folder structure as the site's URL structure. First, create a roo
 ```bash
 cat <<'EOF' > content/_index.md
 ---
-title: "Articles, notes, and ideas"
+title: "Articles, notes, and ideas on technology and management"
 ---
 EOF
 ```
@@ -409,6 +423,7 @@ graph LR
 ---
 title: "Your Post Title"
 date: 2026-03-29
+lastmod: 2026-03-29
 tags: ["hugo", "tutorial"]
 categories: ["tech"]
 summary: "A short description for listing pages."
@@ -623,6 +638,7 @@ This turns content creation into a conversation. You focus on what to write abou
 
 From here, I plan to:
 
+- [SEO optimizations](/tech/seo-for-hugo-cloudflare/) — author info, structured data, Google Search Console, Cloudflare performance
 - Customize the theme colors and layout to match my style
 - Set up archetypes so `hugo new` generates posts with my preferred frontmatter template
 - Add an about page and a landing page
