@@ -261,7 +261,7 @@ mainSections = ["tech", "management", "arduino", "quotes", "brain"]
 [list]
   showBreadcrumbs = true
   showSummary = true
-  groupByYear = true
+  groupByYear = false
 
 [taxonomy]
   showTermCount = true
@@ -308,9 +308,42 @@ The `[homepage]` section is critical. Blowfish defaults to a `profile` layout th
 
 The `[taxonomies]` block in `hugo.toml` tells Hugo to generate tag and category pages automatically. Every post tagged with `hugo` gets listed at `/tags/hugo/`.
 
+### Add a Custom Favicon
+
+Blowfish defaults to generic favicon files. To use your own, create an SVG favicon in `static/` and a partial to load it:
+
+**`static/favicon.svg`:**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#1a1a2e"/>
+  <text x="32" y="43" font-family="system-ui, -apple-system, sans-serif"
+        font-size="28" font-weight="700" fill="#e0e0e0"
+        text-anchor="middle">NJ</text>
+</svg>
+```
+
+**`layouts/partials/favicons.html`:**
+
+```html
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
+```
+
+Blowfish checks for a custom `layouts/partials/favicons.html` before falling back to its default PNG favicons. This override keeps it simple — one SVG file that scales to any size.
+
 ## Step 4: Set Up the Content Hierarchy
 
-Hugo uses your folder structure as the site's URL structure. For this first post, we only need the `tech` section:
+Hugo uses your folder structure as the site's URL structure. First, create a root `_index.md` — this controls what appears on your homepage. Without it, the homepage title defaults to the site title, which creates a duplicate "Built by Nikhil" heading:
+
+```bash
+cat <<'EOF' > content/_index.md
+---
+title: "Articles, notes, and ideas"
+---
+EOF
+```
+
+Now create the `tech` section for your first post:
 
 ```bash
 mkdir -p content/tech
