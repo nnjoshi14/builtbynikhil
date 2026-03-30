@@ -4,6 +4,8 @@ autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = true
+enableStructuredBreadcrumbs = true
+defaultSocialImage = "img/social-banner.png"
 
 mainSections = ["tech", "management", "arduino", "quotes", "brain"]
 
@@ -35,14 +37,18 @@ mainSections = ["tech", "management", "arduino", "quotes", "brain"]
   showTableOfContents = true
   showTaxonomies = true
   showWordCount = true
+  sharingLinks = ["linkedin", "twitter", "bluesky", "reddit", "email"]
 
 [list]
   showBreadcrumbs = true
   showSummary = true
-  groupByYear = true
+  groupByYear = false
 
 [taxonomy]
   showTermCount = true
+
+[sitemap]
+  excludedKinds = []
 
 [term]
   showTableOfContents = true

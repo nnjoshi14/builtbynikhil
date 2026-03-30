@@ -1,9 +1,10 @@
 ---
 title: "How I Set Up This Blog Using Hugo, GitHub, and Cloudflare"
 date: 2026-03-29
+lastmod: 2026-03-29
 tags: ["hugo", "cloudflare", "github", "blogging", "static-site"]
 categories: ["tech"]
-summary: "A step-by-step guide to setting up a minimalistic, markdown-powered blog using Hugo, GitHub, and Cloudflare Pages — from zero to a live site."
+summary: "A step-by-step guide to setting up a minimalistic, markdown-powered blog using Hugo, GitHub, and Cloudflare — from zero to a live site."
 ---
 
 I wanted a blog that is simple to write, fast to load, and cost effective to host. Here is what I needed:
@@ -20,7 +21,7 @@ After evaluating several static site generators — Hugo, Astro, Eleventy, Quart
 
 - **Hugo** — static site generator that turns markdown into a website, mature and actively maintained
 - **GitHub** — version control and storage for all content
-- **Cloudflare Pages** — free hosting with automatic deployments
+- **Cloudflare Workers** — free hosting with automatic deployments
 
 The result: I write markdown files in VS Code, push to GitHub, and the site updates itself. No databases, no servers, no CMS logins, no Obsidian sync scripts.
 
@@ -33,14 +34,14 @@ Here is exactly how I set it up.
 | Writing format | Markdown — plain text, portable, works with any editor |
 | Site generation | Hugo — fast builds, mature ecosystem, great taxonomy support |
 | Version control | GitHub — track every change, rollback anytime |
-| Hosting | Cloudflare Pages — free, fast CDN, auto-deploy on push |
+| Hosting | Cloudflare Workers — free, fast CDN, auto-deploy on push |
 | Domain | Cloudflare DNS — already managing my domain here |
 
 No monthly costs. No vendor lock-in on content. If Hugo dies tomorrow, my posts are still plain markdown files.
 
 ## Step 0: Buy a Domain Name
 
-You do not strictly need a custom domain — Cloudflare Pages gives you a free `*.pages.dev` subdomain. But a custom domain looks professional and costs very little.
+You do not strictly need a custom domain — Cloudflare gives you a free `*.workers.dev` subdomain. But a custom domain looks professional and costs very little.
 
 Here is how the major registrars compare:
 
@@ -53,7 +54,7 @@ Here is how the major registrars compare:
 | DNS management | Basic | Good | Excellent (you will use it anyway) |
 | Domain transfers | Possible but slow | Easy | Easy |
 
-**My recommendation: Cloudflare Registrar.** They sell domains at wholesale cost with zero markup — what they pay to the registry is what you pay. No introductory pricing gimmicks, no hidden fees, free WHOIS privacy. And since you will be using Cloudflare Pages for hosting, your domain and hosting are in the same dashboard with DNS pre-configured.
+**My recommendation: Cloudflare Registrar.** They sell domains at wholesale cost with zero markup — what they pay to the registry is what you pay. No introductory pricing gimmicks, no hidden fees, free WHOIS privacy. And since you will be using Cloudflare for hosting, your domain and hosting are in the same dashboard with DNS pre-configured.
 
 To register a domain on Cloudflare:
 
@@ -215,6 +216,14 @@ title = "Built by Nikhil"
   isoCode = "en"
   dateFormat = "2 January 2006"
   description = "Articles, notes, and ideas on technology, management, and more."
+
+[params.author]
+  name = "Nikhil Joshi"
+  headline = "Software engineer writing about technology and management."
+  links = [
+    { linkedin = "https://www.linkedin.com/in/njoshi/" },
+    { github = "https://github.com/nnjoshi14" },
+  ]
 ```
 
 **`config/_default/params.toml`** — Blowfish theme parameters:
@@ -226,6 +235,8 @@ autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = true
+enableStructuredBreadcrumbs = true
+defaultSocialImage = "img/social-banner.png"
 
 mainSections = ["tech", "management", "arduino", "quotes", "brain"]
 
@@ -257,14 +268,18 @@ mainSections = ["tech", "management", "arduino", "quotes", "brain"]
   showTableOfContents = true
   showTaxonomies = true
   showWordCount = true
+  sharingLinks = ["linkedin", "twitter", "bluesky", "reddit", "email"]
 
 [list]
   showBreadcrumbs = true
   showSummary = true
-  groupByYear = true
+  groupByYear = false
 
 [taxonomy]
   showTermCount = true
+
+[sitemap]
+  excludedKinds = []
 
 [term]
   showTableOfContents = true
@@ -308,9 +323,42 @@ The `[homepage]` section is critical. Blowfish defaults to a `profile` layout th
 
 The `[taxonomies]` block in `hugo.toml` tells Hugo to generate tag and category pages automatically. Every post tagged with `hugo` gets listed at `/tags/hugo/`.
 
+### Add a Custom Favicon
+
+Blowfish defaults to generic favicon files. To use your own, create an SVG favicon in `static/` and a partial to load it:
+
+**`static/favicon.svg`:**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#1a1a2e"/>
+  <text x="32" y="43" font-family="system-ui, -apple-system, sans-serif"
+        font-size="28" font-weight="700" fill="#e0e0e0"
+        text-anchor="middle">NJ</text>
+</svg>
+```
+
+**`layouts/partials/favicons.html`:**
+
+```html
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
+```
+
+Blowfish checks for a custom `layouts/partials/favicons.html` before falling back to its default PNG favicons. This override keeps it simple — one SVG file that scales to any size.
+
 ## Step 4: Set Up the Content Hierarchy
 
-Hugo uses your folder structure as the site's URL structure. For this first post, we only need the `tech` section:
+Hugo uses your folder structure as the site's URL structure. First, create a root `_index.md` — this controls what appears on your homepage. Without it, the homepage title defaults to the site title, which creates a duplicate "Built by Nikhil" heading:
+
+```bash
+cat <<'EOF' > content/_index.md
+---
+title: "Articles, notes, and ideas on technology and management"
+---
+EOF
+```
+
+Now create the `tech` section for your first post:
 
 ```bash
 mkdir -p content/tech
@@ -375,6 +423,7 @@ graph LR
 ---
 title: "Your Post Title"
 date: 2026-03-29
+lastmod: 2026-03-29
 tags: ["hugo", "tutorial"]
 categories: ["tech"]
 summary: "A short description for listing pages."
@@ -405,31 +454,62 @@ git push -u origin main
 
 Your entire site — config files, content, theme reference — lives in this single repository.
 
-## Step 8: Deploy on Cloudflare Pages
+## Step 8: Deploy on Cloudflare
+
+Cloudflare now deploys static sites through **Workers** (not the legacy Pages flow). This uses Workers Builds for CI/CD and Workers Static Assets to serve your site from the edge.
+
+### Add a Wrangler Config
+
+Create a `wrangler.jsonc` file in your project root — this tells Cloudflare where your static files are:
+
+```jsonc
+{
+  "name": "builtbynikhil",
+  "compatibility_date": "2026-03-29",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  }
+}
+```
+
+The `name` must match the project name you set in the Cloudflare dashboard. The `assets.directory` points to Hugo's default output folder.
+
+Commit and push this file before setting up the deployment.
+
+### Create the Worker
 
 1. Log in to the [Cloudflare Dashboard](https://dash.cloudflare.com)
-2. Go to **Workers & Pages** → **Create** → **Pages** → **Connect to Git**
-3. Select your `builtbynikhil` repository
+2. Go to **Workers & Pages** → **Create** → **Worker** → **Import from Git**
+3. Connect your GitHub account and select the `builtbynikhil` repository
 4. Configure the build settings:
-   - **Build command:** `hugo`
-   - **Build output directory:** `public`
-   - **Environment variable:** `HUGO_VERSION` = `0.147.0` (or your installed version)
-5. Click **Save and Deploy**
 
-Cloudflare will clone your repo, run Hugo, and publish the output. Every future `git push` triggers a new build automatically.
+| Setting | Value |
+|---|---|
+| **Project name** | `builtbynikhil` |
+| **Build command** | `hugo` |
+| **Deploy command** | `npx wrangler deploy` |
+| **Non-production branch deploy command** | `npx wrangler versions upload` |
+| **Path** | `/` |
+| **API token** | Auto-generated by Cloudflare |
+
+5. Add an environment variable: **`HUGO_VERSION`** = `0.159.1` (or your installed version — run `hugo version` to check). This is important because the default Hugo version on the build image is older
+6. Click **Save and Deploy**
+
+Cloudflare runs a two-step process on every `git push`: first it runs `hugo` to build your site into `public/`, then it runs `npx wrangler deploy` to push those static files to the edge. For non-production branches, `npx wrangler versions upload` creates a preview version without promoting to production.
 
 ## Step 9: Connect Your Domain
 
 Since your domain is already on Cloudflare:
 
-1. In your Cloudflare Pages project, go to **Custom domains**
+1. In your Worker project settings, go to **Custom domains**
 2. Add `builtbynikhil.com`
 3. Cloudflare sets up the DNS record automatically
 4. SSL is provisioned within minutes
 
 Your site is now live at `https://builtbynikhil.com`.
 
-## The Daily Workflow
+## Step 10: The Daily Workflow
 
 Once everything is set up, publishing a new post is three commands:
 
@@ -445,7 +525,7 @@ git push
 
 That is it. Cloudflare picks up the push, rebuilds the site, and your post is live within a minute.
 
-## Repository Structure
+## Step 11: Repository Structure
 
 Here is how the single repository keeps concerns separated:
 
@@ -468,6 +548,7 @@ builtbynikhil/
 │   ├── quotes/
 │   └── brain/
 ├── themes/blowfish/       # theme (git submodule, not yours)
+├── wrangler.jsonc          # Cloudflare Workers deployment config
 ├── layouts/               # your layout overrides (if any)
 ├── static/                # images, downloads
 └── archetypes/            # templates for new posts
@@ -505,10 +586,12 @@ This is a Hugo site using the Blowfish theme.
 - Each section has an `_index.md` for its listing page
 
 ## Creating new posts
-- Use frontmatter: title, date, tags, categories, summary, draft
+- Use frontmatter: title, date, lastmod, tags, categories, summary, draft
+- Always include `lastmod` — set to same as `date` for new posts, update when editing
 - Place posts in the correct section folder based on topic
 - Create new section folders and `_index.md` files as needed
 - Tags are lowercase, hyphenated (e.g., "state-management", "clean-code")
+- Always include `summary` (under 160 chars) — used as meta description
 
 ## Creating new sections
 When a post needs a section that does not exist yet:
@@ -555,6 +638,7 @@ This turns content creation into a conversation. You focus on what to write abou
 
 From here, I plan to:
 
+- [SEO optimizations](/tech/seo-for-hugo-cloudflare/) — author info, structured data, Google Search Console, Cloudflare performance
 - Customize the theme colors and layout to match my style
 - Set up archetypes so `hugo new` generates posts with my preferred frontmatter template
 - Add an about page and a landing page
