@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Servo on Built by Nikhil</title>
+    <link>https://builtbynikhil.com/tags/servo/</link>
+    <description>Recent content in Servo on Built by Nikhil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Nikhil Joshi</copyright>
+    <lastBuildDate>Sat, 11 Apr 2026 23:48:00 +0530</lastBuildDate><atom:link href="https://builtbynikhil.com/tags/servo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Day 12: Servo Motor — Rotate to Any Angle</title>
+      <link>https://builtbynikhil.com/arduino/day-12-servo-motor/</link>
+      <pubDate>Sat, 11 Apr 2026 23:48:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-12-servo-motor/</guid>
+      <description>Day 12 of Learn Coding with Arduino — hook up an SG90 servo motor, sweep it from 0° to 180°, and control its position with a potentiometer.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seo on Built by Nikhil</title>
+    <link>https://builtbynikhil.com/tags/seo/</link>
+    <description>Recent content in Seo on Built by Nikhil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Nikhil Joshi</copyright>
+    <lastBuildDate>Sun, 29 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://builtbynikhil.com/tags/seo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>SEO Optimizations for a Hugo Site on Cloudflare</title>
+      <link>https://builtbynikhil.com/tech/seo-for-hugo-cloudflare/</link>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://builtbynikhil.com/tech/seo-for-hugo-cloudflare/</guid>
+      <description>A practical checklist for SEO on a Hugo site with the Blowfish theme hosted on Cloudflare — from meta tags and structured data to Google Search Console and Cloudflare caching.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arrays on Built by Nikhil</title>
+    <link>https://builtbynikhil.com/tags/arrays/</link>
+    <description>Recent content in Arrays on Built by Nikhil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Nikhil Joshi</copyright>
+    <lastBuildDate>Sat, 11 Apr 2026 23:55:00 +0530</lastBuildDate><atom:link href="https://builtbynikhil.com/tags/arrays/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Day 5: Three LEDs — Dance, Chase, and Random</title>
+      <link>https://builtbynikhil.com/arduino/day-5-led-sequences/</link>
+      <pubDate>Sat, 11 Apr 2026 23:55:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-5-led-sequences/</guid>
+      <description>Day 5 of Learn Coding with Arduino — wire up 3 LEDs and control them as a group. Chaser patterns, random blinks, and the trick of looping over pin numbers.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 17: Build an LCD Menu You Can Navigate</title>
+      <link>https://builtbynikhil.com/arduino/day-17-lcd-menu/</link>
+      <pubDate>Sat, 11 Apr 2026 23:43:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-17-lcd-menu/</guid>
+      <description>Day 17 of Learn Coding with Arduino — build a scrollable menu on the 16x2 LCD. Two buttons: one to cycle through options, one to select. Arduino gets a real user interface.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

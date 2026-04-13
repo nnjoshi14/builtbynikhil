@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beginner on Built by Nikhil</title>
+    <link>https://builtbynikhil.com/tags/beginner/</link>
+    <description>Recent content in Beginner on Built by Nikhil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Nikhil Joshi</copyright>
+    <lastBuildDate>Sat, 11 Apr 2026 23:59:00 +0530</lastBuildDate><atom:link href="https://builtbynikhil.com/tags/beginner/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Day 1: Intro to Arduino &amp; Your First Code</title>
+      <link>https://builtbynikhil.com/arduino/day-1-intro-to-arduino/</link>
+      <pubDate>Sat, 11 Apr 2026 23:59:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-1-intro-to-arduino/</guid>
+      <description>Day 1 of Learn Coding with Arduino — meet your Uno, install the IDE, and make the little built-in LED blink.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 2: Blinking an External LED &amp; Understanding the Breadboard</title>
+      <link>https://builtbynikhil.com/arduino/day-2-external-led-breadboard/</link>
+      <pubDate>Sat, 11 Apr 2026 23:58:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-2-external-led-breadboard/</guid>
+      <description>Day 2 of Learn Coding with Arduino — wire up your own LED on a breadboard, learn why resistors matter, and blink it from the Uno.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 3: Button Input — Making the Arduino Listen</title>
+      <link>https://builtbynikhil.com/arduino/day-3-button-input/</link>
+      <pubDate>Sat, 11 Apr 2026 23:57:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-3-button-input/</guid>
+      <description>Day 3 of Learn Coding with Arduino — connect a push button, read it with digitalRead, and use your first if/else to turn on an LED only when pressed.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 4: Variables and Loops</title>
+      <link>https://builtbynikhil.com/arduino/day-4-variables-and-loops/</link>
+      <pubDate>Sat, 11 Apr 2026 23:56:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-4-variables-and-loops/</guid>
+      <description>Day 4 of Learn Coding with Arduino — meet variables (labeled boxes that hold numbers) and for loops (repeat without retyping). Blink an LED 5 times in a row with just a few lines.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 5: Three LEDs — Dance, Chase, and Random</title>
+      <link>https://builtbynikhil.com/arduino/day-5-led-sequences/</link>
+      <pubDate>Sat, 11 Apr 2026 23:55:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-5-led-sequences/</guid>
+      <description>Day 5 of Learn Coding with Arduino — wire up 3 LEDs and control them as a group. Chaser patterns, random blinks, and the trick of looping over pin numbers.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 6: Build a Traffic Light System</title>
+      <link>https://builtbynikhil.com/arduino/day-6-traffic-light/</link>
+      <pubDate>Sat, 11 Apr 2026 23:54:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-6-traffic-light/</guid>
+      <description>Day 6 of Learn Coding with Arduino — build a full red-yellow-green traffic light with realistic timing, then add a pedestrian button that overrides the cycle.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 7: The Easier Button — INPUT_PULLUP</title>
+      <link>https://builtbynikhil.com/arduino/day-7-input-pullup/</link>
+      <pubDate>Sat, 11 Apr 2026 23:53:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-7-input-pullup/</guid>
+      <description>Day 7 of Learn Coding with Arduino — simplify your button circuit using the Arduino&amp;rsquo;s built-in pull-up. One resistor less, and learn how to toggle an LED with each press.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 8: Potentiometer, Serial Monitor, and Dimming an LED</title>
+      <link>https://builtbynikhil.com/arduino/day-8-potentiometer/</link>
+      <pubDate>Sat, 11 Apr 2026 23:52:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-8-potentiometer/</guid>
+      <description>Day 8 of Learn Coding with Arduino — your first analog input. Read a potentiometer knob, print numbers to the Serial Monitor, and use PWM to dim an LED smoothly.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 9: Light Sensor — Arduino Learns to See</title>
+      <link>https://builtbynikhil.com/arduino/day-9-light-sensor/</link>
+      <pubDate>Sat, 11 Apr 2026 23:51:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-9-light-sensor/</guid>
+      <description>Day 9 of Learn Coding with Arduino — wire up a photoresistor (LDR) to read how bright the room is, and use a threshold to decide if it&amp;rsquo;s dark enough to turn on a light.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 10: Project — Smart Night Light</title>
+      <link>https://builtbynikhil.com/arduino/day-10-smart-night-light/</link>
+      <pubDate>Sat, 11 Apr 2026 23:50:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-10-smart-night-light/</guid>
+      <description>Day 10 of Learn Coding with Arduino — build a smart night light that turns on automatically when it gets dark, with a manual override button.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 11: Buzzer — Make Noise and a Simple Melody</title>
+      <link>https://builtbynikhil.com/arduino/day-11-buzzer/</link>
+      <pubDate>Sat, 11 Apr 2026 23:49:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-11-buzzer/</guid>
+      <description>Day 11 of Learn Coding with Arduino — connect a piezo buzzer and use tone() to play beeps, notes, and a short melody.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 12: Servo Motor — Rotate to Any Angle</title>
+      <link>https://builtbynikhil.com/arduino/day-12-servo-motor/</link>
+      <pubDate>Sat, 11 Apr 2026 23:48:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-12-servo-motor/</guid>
+      <description>Day 12 of Learn Coding with Arduino — hook up an SG90 servo motor, sweep it from 0° to 180°, and control its position with a potentiometer.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 13: DC Motor, Transistor, and Speed Control</title>
+      <link>https://builtbynikhil.com/arduino/day-13-dc-motor/</link>
+      <pubDate>Sat, 11 Apr 2026 23:47:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-13-dc-motor/</guid>
+      <description>Day 13 of Learn Coding with Arduino — drive a DC motor with a transistor and control its speed using PWM. Meet the diode and understand why Arduino can&amp;rsquo;t power motors directly.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 14: Project — Auto Fan System</title>
+      <link>https://builtbynikhil.com/arduino/day-14-auto-fan/</link>
+      <pubDate>Sat, 11 Apr 2026 23:46:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-14-auto-fan/</guid>
+      <description>Day 14 of Learn Coding with Arduino — build an automatic fan that turns on when the room gets too bright or too hot, with a buzzer alert. Everything from Days 1-13 in one project.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 15: LCD Screen — Hello Anish!</title>
+      <link>https://builtbynikhil.com/arduino/day-15-lcd-basics/</link>
+      <pubDate>Sat, 11 Apr 2026 23:45:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-15-lcd-basics/</guid>
+      <description>Day 15 of Learn Coding with Arduino — hook up a 16×2 LCD via I2C and display your first text. Arduino gets a screen!</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 16: Show Sensor Values on the LCD</title>
+      <link>https://builtbynikhil.com/arduino/day-16-lcd-sensor/</link>
+      <pubDate>Sat, 11 Apr 2026 23:44:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-16-lcd-sensor/</guid>
+      <description>Day 16 of Learn Coding with Arduino — display live potentiometer and LDR readings on the 16x2 LCD without flicker. Arduino gets a dashboard.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 17: Build an LCD Menu You Can Navigate</title>
+      <link>https://builtbynikhil.com/arduino/day-17-lcd-menu/</link>
+      <pubDate>Sat, 11 Apr 2026 23:43:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-17-lcd-menu/</guid>
+      <description>Day 17 of Learn Coding with Arduino — build a scrollable menu on the 16x2 LCD. Two buttons: one to cycle through options, one to select. Arduino gets a real user interface.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 18: Project — Mini Weather Station</title>
+      <link>https://builtbynikhil.com/arduino/day-18-weather-station/</link>
+      <pubDate>Sat, 11 Apr 2026 23:42:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-18-weather-station/</guid>
+      <description>Day 18 of Learn Coding with Arduino — build a mini weather station that shows light level, simulated temperature, and custom sun and moon icons on the LCD.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 19: IR Remote — Control Arduino with a TV Remote</title>
+      <link>https://builtbynikhil.com/arduino/day-19-ir-remote/</link>
+      <pubDate>Sat, 11 Apr 2026 23:41:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-19-ir-remote/</guid>
+      <description>Day 19 of Learn Coding with Arduino — hook up an IR receiver and use any TV or DVD remote to control LEDs. Your first wireless input.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 20: Sound Sensor — Clap to Control</title>
+      <link>https://builtbynikhil.com/arduino/day-20-sound-sensor/</link>
+      <pubDate>Sat, 11 Apr 2026 23:40:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-20-sound-sensor/</guid>
+      <description>Day 20 of Learn Coding with Arduino — wire up a KY-038 sound sensor, detect claps, and toggle an LED with a sound.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 21: Dual-Mode Control — IR Remote &#43; Sound</title>
+      <link>https://builtbynikhil.com/arduino/day-21-ir-and-sound/</link>
+      <pubDate>Sat, 11 Apr 2026 23:39:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-21-ir-and-sound/</guid>
+      <description>Day 21 of Learn Coding with Arduino — combine the IR remote and sound sensor into one sketch with manual and auto modes, with the LCD showing the current state.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 22: Project — Smart Room System</title>
+      <link>https://builtbynikhil.com/arduino/day-22-smart-room/</link>
+      <pubDate>Sat, 11 Apr 2026 23:38:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-22-smart-room/</guid>
+      <description>Day 22 of Learn Coding with Arduino — the big one. Build a Smart Room System that combines IR, sound, LCD, light sensor, LED, and buzzer into one coherent program.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 23: Pick Your Project — Brainstorm and Plan</title>
+      <link>https://builtbynikhil.com/arduino/day-23-project-planning/</link>
+      <pubDate>Sat, 11 Apr 2026 23:37:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-23-project-planning/</guid>
+      <description>Day 23 of Learn Coding with Arduino — the first day of your final project. Brainstorm ideas, pick one that excites you, and sketch the system diagram before writing any code.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 24: Build Your Project — One Piece at a Time</title>
+      <link>https://builtbynikhil.com/arduino/day-24-build-core/</link>
+      <pubDate>Sat, 11 Apr 2026 23:36:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-24-build-core/</guid>
+      <description>Day 24 of Learn Coding with Arduino — take the project plan from Day 23 and start building. One module at a time, tested and working, before moving to the next.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 25: Integrate and Debug</title>
+      <link>https://builtbynikhil.com/arduino/day-25-integration-debug/</link>
+      <pubDate>Sat, 11 Apr 2026 23:35:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-25-integration-debug/</guid>
+      <description>Day 25 of Learn Coding with Arduino — stitch all the modules from Day 24 into one coherent sketch, break loop() into helper functions, and debug integration issues.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 26: Demo Day — Show It Off</title>
+      <link>https://builtbynikhil.com/arduino/day-26-demo-day/</link>
+      <pubDate>Sat, 11 Apr 2026 23:34:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-26-demo-day/</guid>
+      <description>Day 26 of Learn Coding with Arduino — the final day. You present your project, celebrate the journey, and think about what to build next.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

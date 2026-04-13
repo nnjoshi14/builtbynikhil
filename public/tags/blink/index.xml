@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blink on Built by Nikhil</title>
+    <link>https://builtbynikhil.com/tags/blink/</link>
+    <description>Recent content in Blink on Built by Nikhil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Nikhil Joshi</copyright>
+    <lastBuildDate>Sat, 11 Apr 2026 23:59:00 +0530</lastBuildDate><atom:link href="https://builtbynikhil.com/tags/blink/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Day 1: Intro to Arduino &amp; Your First Code</title>
+      <link>https://builtbynikhil.com/arduino/day-1-intro-to-arduino/</link>
+      <pubDate>Sat, 11 Apr 2026 23:59:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-1-intro-to-arduino/</guid>
+      <description>Day 1 of Learn Coding with Arduino — meet your Uno, install the IDE, and make the little built-in LED blink.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

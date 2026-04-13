@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ui on Built by Nikhil</title>
+    <link>https://builtbynikhil.com/tags/ui/</link>
+    <description>Recent content in Ui on Built by Nikhil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Nikhil Joshi</copyright>
+    <lastBuildDate>Sat, 11 Apr 2026 23:43:00 +0530</lastBuildDate><atom:link href="https://builtbynikhil.com/tags/ui/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Day 17: Build an LCD Menu You Can Navigate</title>
+      <link>https://builtbynikhil.com/arduino/day-17-lcd-menu/</link>
+      <pubDate>Sat, 11 Apr 2026 23:43:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-17-lcd-menu/</guid>
+      <description>Day 17 of Learn Coding with Arduino — build a scrollable menu on the 16x2 LCD. Two buttons: one to cycle through options, one to select. Arduino gets a real user interface.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

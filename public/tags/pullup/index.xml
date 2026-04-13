@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pullup on Built by Nikhil</title>
+    <link>https://builtbynikhil.com/tags/pullup/</link>
+    <description>Recent content in Pullup on Built by Nikhil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Nikhil Joshi</copyright>
+    <lastBuildDate>Sat, 11 Apr 2026 23:53:00 +0530</lastBuildDate><atom:link href="https://builtbynikhil.com/tags/pullup/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Day 7: The Easier Button — INPUT_PULLUP</title>
+      <link>https://builtbynikhil.com/arduino/day-7-input-pullup/</link>
+      <pubDate>Sat, 11 Apr 2026 23:53:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-7-input-pullup/</guid>
+      <description>Day 7 of Learn Coding with Arduino — simplify your button circuit using the Arduino&amp;rsquo;s built-in pull-up. One resistor less, and learn how to toggle an LED with each press.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

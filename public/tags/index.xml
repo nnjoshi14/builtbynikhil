@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Built by Nikhil</title>
+    <link>https://builtbynikhil.com/tags/</link>
+    <description>Recent content in Tags on Built by Nikhil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Nikhil Joshi</copyright>
+    <lastBuildDate>Sat, 11 Apr 2026 23:59:00 +0530</lastBuildDate><atom:link href="https://builtbynikhil.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Arduino</title>
+      <link>https://builtbynikhil.com/tags/arduino/</link>
+      <pubDate>Sat, 11 Apr 2026 23:59:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/arduino/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Beginner</title>
+      <link>https://builtbynikhil.com/tags/beginner/</link>
+      <pubDate>Sat, 11 Apr 2026 23:59:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/beginner/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blink</title>
+      <link>https://builtbynikhil.com/tags/blink/</link>
+      <pubDate>Sat, 11 Apr 2026 23:59:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/blink/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Kids</title>
+      <link>https://builtbynikhil.com/tags/kids/</link>
+      <pubDate>Sat, 11 Apr 2026 23:59:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/kids/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Led</title>
+      <link>https://builtbynikhil.com/tags/led/</link>
+      <pubDate>Sat, 11 Apr 2026 23:59:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/led/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Breadboard</title>
+      <link>https://builtbynikhil.com/tags/breadboard/</link>
+      <pubDate>Sat, 11 Apr 2026 23:58:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/breadboard/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Resistor</title>
+      <link>https://builtbynikhil.com/tags/resistor/</link>
+      <pubDate>Sat, 11 Apr 2026 23:58:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/resistor/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Button</title>
+      <link>https://builtbynikhil.com/tags/button/</link>
+      <pubDate>Sat, 11 Apr 2026 23:57:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/button/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Digitalread</title>
+      <link>https://builtbynikhil.com/tags/digitalread/</link>
+      <pubDate>Sat, 11 Apr 2026 23:57:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/digitalread/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>If-Else</title>
+      <link>https://builtbynikhil.com/tags/if-else/</link>
+      <pubDate>Sat, 11 Apr 2026 23:57:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/if-else/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Input</title>
+      <link>https://builtbynikhil.com/tags/input/</link>
+      <pubDate>Sat, 11 Apr 2026 23:57:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/input/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>For-Loop</title>
+      <link>https://builtbynikhil.com/tags/for-loop/</link>
+      <pubDate>Sat, 11 Apr 2026 23:56:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/for-loop/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Loops</title>
+      <link>https://builtbynikhil.com/tags/loops/</link>
+      <pubDate>Sat, 11 Apr 2026 23:56:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/loops/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>https://builtbynikhil.com/tags/variables/</link>
+      <pubDate>Sat, 11 Apr 2026 23:56:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/variables/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Arrays</title>
+      <link>https://builtbynikhil.com/tags/arrays/</link>
+      <pubDate>Sat, 11 Apr 2026 23:55:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/arrays/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Random</title>
+      <link>https://builtbynikhil.com/tags/random/</link>
+      <pubDate>Sat, 11 Apr 2026 23:55:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/random/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Project</title>
+      <link>https://builtbynikhil.com/tags/project/</link>
+      <pubDate>Sat, 11 Apr 2026 23:54:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/project/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Traffic-Light</title>
+      <link>https://builtbynikhil.com/tags/traffic-light/</link>
+      <pubDate>Sat, 11 Apr 2026 23:54:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/traffic-light/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Pullup</title>
+      <link>https://builtbynikhil.com/tags/pullup/</link>
+      <pubDate>Sat, 11 Apr 2026 23:53:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/pullup/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Toggle</title>
+      <link>https://builtbynikhil.com/tags/toggle/</link>
+      <pubDate>Sat, 11 Apr 2026 23:53:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/toggle/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Analog</title>
+      <link>https://builtbynikhil.com/tags/analog/</link>
+      <pubDate>Sat, 11 Apr 2026 23:52:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/analog/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Map</title>
+      <link>https://builtbynikhil.com/tags/map/</link>
+      <pubDate>Sat, 11 Apr 2026 23:52:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/map/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Potentiometer</title>
+      <link>https://builtbynikhil.com/tags/potentiometer/</link>
+      <pubDate>Sat, 11 Apr 2026 23:52:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/potentiometer/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Pwm</title>
+      <link>https://builtbynikhil.com/tags/pwm/</link>
+      <pubDate>Sat, 11 Apr 2026 23:52:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/pwm/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Serial</title>
+      <link>https://builtbynikhil.com/tags/serial/</link>
+      <pubDate>Sat, 11 Apr 2026 23:52:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/serial/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Ldr</title>
+      <link>https://builtbynikhil.com/tags/ldr/</link>
+      <pubDate>Sat, 11 Apr 2026 23:51:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/ldr/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sensor</title>
+      <link>https://builtbynikhil.com/tags/sensor/</link>
+      <pubDate>Sat, 11 Apr 2026 23:51:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/sensor/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Threshold</title>
+      <link>https://builtbynikhil.com/tags/threshold/</link>
+      <pubDate>Sat, 11 Apr 2026 23:51:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/threshold/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Night-Light</title>
+      <link>https://builtbynikhil.com/tags/night-light/</link>
+      <pubDate>Sat, 11 Apr 2026 23:50:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/night-light/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Buzzer</title>
+      <link>https://builtbynikhil.com/tags/buzzer/</link>
+      <pubDate>Sat, 11 Apr 2026 23:49:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/buzzer/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Melody</title>
+      <link>https://builtbynikhil.com/tags/melody/</link>
+      <pubDate>Sat, 11 Apr 2026 23:49:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/melody/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sound</title>
+      <link>https://builtbynikhil.com/tags/sound/</link>
+      <pubDate>Sat, 11 Apr 2026 23:49:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/sound/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tone</title>
+      <link>https://builtbynikhil.com/tags/tone/</link>
+      <pubDate>Sat, 11 Apr 2026 23:49:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/tone/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Library</title>
+      <link>https://builtbynikhil.com/tags/library/</link>
+      <pubDate>Sat, 11 Apr 2026 23:48:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/library/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Motor</title>
+      <link>https://builtbynikhil.com/tags/motor/</link>
+      <pubDate>Sat, 11 Apr 2026 23:48:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/motor/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Servo</title>
+      <link>https://builtbynikhil.com/tags/servo/</link>
+      <pubDate>Sat, 11 Apr 2026 23:48:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/servo/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Dc-Motor</title>
+      <link>https://builtbynikhil.com/tags/dc-motor/</link>
+      <pubDate>Sat, 11 Apr 2026 23:47:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/dc-motor/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Speed-Control</title>
+      <link>https://builtbynikhil.com/tags/speed-control/</link>
+      <pubDate>Sat, 11 Apr 2026 23:47:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/speed-control/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Transistor</title>
+      <link>https://builtbynikhil.com/tags/transistor/</link>
+      <pubDate>Sat, 11 Apr 2026 23:47:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/transistor/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Auto-Fan</title>
+      <link>https://builtbynikhil.com/tags/auto-fan/</link>
+      <pubDate>Sat, 11 Apr 2026 23:46:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/auto-fan/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Display</title>
+      <link>https://builtbynikhil.com/tags/display/</link>
+      <pubDate>Sat, 11 Apr 2026 23:45:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/display/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>I2c</title>
+      <link>https://builtbynikhil.com/tags/i2c/</link>
+      <pubDate>Sat, 11 Apr 2026 23:45:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/i2c/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Lcd</title>
+      <link>https://builtbynikhil.com/tags/lcd/</link>
+      <pubDate>Sat, 11 Apr 2026 23:45:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/lcd/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Menu</title>
+      <link>https://builtbynikhil.com/tags/menu/</link>
+      <pubDate>Sat, 11 Apr 2026 23:43:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/menu/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Strings</title>
+      <link>https://builtbynikhil.com/tags/strings/</link>
+      <pubDate>Sat, 11 Apr 2026 23:43:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/strings/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Ui</title>
+      <link>https://builtbynikhil.com/tags/ui/</link>
+      <pubDate>Sat, 11 Apr 2026 23:43:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/ui/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Custom-Chars</title>
+      <link>https://builtbynikhil.com/tags/custom-chars/</link>
+      <pubDate>Sat, 11 Apr 2026 23:42:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/custom-chars/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Weather</title>
+      <link>https://builtbynikhil.com/tags/weather/</link>
+      <pubDate>Sat, 11 Apr 2026 23:42:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/weather/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Ir</title>
+      <link>https://builtbynikhil.com/tags/ir/</link>
+      <pubDate>Sat, 11 Apr 2026 23:41:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/ir/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Remote</title>
+      <link>https://builtbynikhil.com/tags/remote/</link>
+      <pubDate>Sat, 11 Apr 2026 23:41:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/remote/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Wireless</title>
+      <link>https://builtbynikhil.com/tags/wireless/</link>
+      <pubDate>Sat, 11 Apr 2026 23:41:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/wireless/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Clap</title>
+      <link>https://builtbynikhil.com/tags/clap/</link>
+      <pubDate>Sat, 11 Apr 2026 23:40:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/clap/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Ky-038</title>
+      <link>https://builtbynikhil.com/tags/ky-038/</link>
+      <pubDate>Sat, 11 Apr 2026 23:40:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/ky-038/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Integration</title>
+      <link>https://builtbynikhil.com/tags/integration/</link>
+      <pubDate>Sat, 11 Apr 2026 23:39:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/integration/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Modes</title>
+      <link>https://builtbynikhil.com/tags/modes/</link>
+      <pubDate>Sat, 11 Apr 2026 23:39:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/modes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Smart-Home</title>
+      <link>https://builtbynikhil.com/tags/smart-home/</link>
+      <pubDate>Sat, 11 Apr 2026 23:38:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/smart-home/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>https://builtbynikhil.com/tags/design/</link>
+      <pubDate>Sat, 11 Apr 2026 23:37:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/design/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Planning</title>
+      <link>https://builtbynikhil.com/tags/planning/</link>
+      <pubDate>Sat, 11 Apr 2026 23:37:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/planning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Building</title>
+      <link>https://builtbynikhil.com/tags/building/</link>
+      <pubDate>Sat, 11 Apr 2026 23:36:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/building/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>https://builtbynikhil.com/tags/testing/</link>
+      <pubDate>Sat, 11 Apr 2026 23:36:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/testing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Debugging</title>
+      <link>https://builtbynikhil.com/tags/debugging/</link>
+      <pubDate>Sat, 11 Apr 2026 23:35:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/debugging/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>https://builtbynikhil.com/tags/functions/</link>
+      <pubDate>Sat, 11 Apr 2026 23:35:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/functions/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Millis</title>
+      <link>https://builtbynikhil.com/tags/millis/</link>
+      <pubDate>Sat, 11 Apr 2026 23:35:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/millis/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Celebration</title>
+      <link>https://builtbynikhil.com/tags/celebration/</link>
+      <pubDate>Sat, 11 Apr 2026 23:34:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/celebration/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Demo</title>
+      <link>https://builtbynikhil.com/tags/demo/</link>
+      <pubDate>Sat, 11 Apr 2026 23:34:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/demo/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blogging</title>
+      <link>https://builtbynikhil.com/tags/blogging/</link>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/blogging/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish</title>
+      <link>https://builtbynikhil.com/tags/blowfish/</link>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/blowfish/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Cloudflare</title>
+      <link>https://builtbynikhil.com/tags/cloudflare/</link>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/cloudflare/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>https://builtbynikhil.com/tags/github/</link>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/github/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://builtbynikhil.com/tags/hugo/</link>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/hugo/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Seo</title>
+      <link>https://builtbynikhil.com/tags/seo/</link>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/seo/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Static-Site</title>
+      <link>https://builtbynikhil.com/tags/static-site/</link>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://builtbynikhil.com/tags/static-site/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

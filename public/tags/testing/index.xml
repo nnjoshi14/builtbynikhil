@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testing on Built by Nikhil</title>
+    <link>https://builtbynikhil.com/tags/testing/</link>
+    <description>Recent content in Testing on Built by Nikhil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Nikhil Joshi</copyright>
+    <lastBuildDate>Sat, 11 Apr 2026 23:36:00 +0530</lastBuildDate><atom:link href="https://builtbynikhil.com/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Day 24: Build Your Project — One Piece at a Time</title>
+      <link>https://builtbynikhil.com/arduino/day-24-build-core/</link>
+      <pubDate>Sat, 11 Apr 2026 23:36:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-24-build-core/</guid>
+      <description>Day 24 of Learn Coding with Arduino — take the project plan from Day 23 and start building. One module at a time, tested and working, before moving to the next.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

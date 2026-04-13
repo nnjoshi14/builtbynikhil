@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Celebration on Built by Nikhil</title>
+    <link>https://builtbynikhil.com/tags/celebration/</link>
+    <description>Recent content in Celebration on Built by Nikhil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Nikhil Joshi</copyright>
+    <lastBuildDate>Sat, 11 Apr 2026 23:34:00 +0530</lastBuildDate><atom:link href="https://builtbynikhil.com/tags/celebration/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Day 26: Demo Day — Show It Off</title>
+      <link>https://builtbynikhil.com/arduino/day-26-demo-day/</link>
+      <pubDate>Sat, 11 Apr 2026 23:34:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-26-demo-day/</guid>
+      <description>Day 26 of Learn Coding with Arduino — the final day. You present your project, celebrate the journey, and think about what to build next.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

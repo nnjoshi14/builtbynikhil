@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Led on Built by Nikhil</title>
+    <link>https://builtbynikhil.com/tags/led/</link>
+    <description>Recent content in Led on Built by Nikhil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Nikhil Joshi</copyright>
+    <lastBuildDate>Sat, 11 Apr 2026 23:59:00 +0530</lastBuildDate><atom:link href="https://builtbynikhil.com/tags/led/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Day 1: Intro to Arduino &amp; Your First Code</title>
+      <link>https://builtbynikhil.com/arduino/day-1-intro-to-arduino/</link>
+      <pubDate>Sat, 11 Apr 2026 23:59:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-1-intro-to-arduino/</guid>
+      <description>Day 1 of Learn Coding with Arduino — meet your Uno, install the IDE, and make the little built-in LED blink.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 2: Blinking an External LED &amp; Understanding the Breadboard</title>
+      <link>https://builtbynikhil.com/arduino/day-2-external-led-breadboard/</link>
+      <pubDate>Sat, 11 Apr 2026 23:58:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-2-external-led-breadboard/</guid>
+      <description>Day 2 of Learn Coding with Arduino — wire up your own LED on a breadboard, learn why resistors matter, and blink it from the Uno.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 5: Three LEDs — Dance, Chase, and Random</title>
+      <link>https://builtbynikhil.com/arduino/day-5-led-sequences/</link>
+      <pubDate>Sat, 11 Apr 2026 23:55:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-5-led-sequences/</guid>
+      <description>Day 5 of Learn Coding with Arduino — wire up 3 LEDs and control them as a group. Chaser patterns, random blinks, and the trick of looping over pin numbers.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 6: Build a Traffic Light System</title>
+      <link>https://builtbynikhil.com/arduino/day-6-traffic-light/</link>
+      <pubDate>Sat, 11 Apr 2026 23:54:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-6-traffic-light/</guid>
+      <description>Day 6 of Learn Coding with Arduino — build a full red-yellow-green traffic light with realistic timing, then add a pedestrian button that overrides the cycle.</description>
+      
+    </item>
+    
+    <item>
+      <title>Day 10: Project — Smart Night Light</title>
+      <link>https://builtbynikhil.com/arduino/day-10-smart-night-light/</link>
+      <pubDate>Sat, 11 Apr 2026 23:50:00 +0530</pubDate>
+      
+      <guid>https://builtbynikhil.com/arduino/day-10-smart-night-light/</guid>
+      <description>Day 10 of Learn Coding with Arduino — build a smart night light that turns on automatically when it gets dark, with a manual override button.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
